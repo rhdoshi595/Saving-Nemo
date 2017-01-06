@@ -1,0 +1,34 @@
+{
+  "name": "JSGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "firebase": "^3.6.4",
+    "mocha": "^3.2.0",
+    "save": "^2.3.0",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha -w",
+    "webpack": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdoshi595/JSGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhdoshi595/JSGame/issues"
+  },
+  "homepage": "https://github.com/rhdoshi595/JSGame#readme"
+}
