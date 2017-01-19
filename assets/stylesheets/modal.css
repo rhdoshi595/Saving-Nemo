@@ -69,7 +69,7 @@
 }
 
 .start:hover {
-  background: red;
+  background: #0868e5;
   padding: 7px 12px;
 }
 
@@ -86,12 +86,12 @@
   left: 50%;
   transform: translateX(-50%);
   width: 22% !important;
-  background: #E50914 !important;
+  background: blue !important;
   padding: 10px 20px !important;
   text-align: center !important;
 }
 
 .game-modal:hover {
-  background: red !important;
+  background: #0868e5 !important;
   padding: 15px 25px !important;
 }
