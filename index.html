@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="assets/stylesheets/modal.css">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyBsI0koOMiV8944vb5XpRQxtS6FmUdgQ1E",
+        authDomain: "saving-nemo-d501a.firebaseapp.com",
+        databaseURL: "https://saving-nemo-d501a.firebaseio.com",
+        storageBucket: "saving-nemo-d501a.appspot.com",
+        messagingSenderId: "233715418539"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
     <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
@@ -24,7 +35,7 @@
     <div class="start game-modal modal hidden"></div>
     <div class="modal">
       <div class="inner-modal">
-        
+
         <h1 class="modal-header">Saving Nemo</h1>
         <span class="start">Start</span>
         <br />
@@ -44,6 +55,14 @@
       </div>
     </div>
 
+    <div class='leader modal hidden'>
+      <div class='leader-inner'>
+        <a href="#close" title='Close' class='close'>X</a>
+        <h1 class='leader modal-header'>Highest 10 Scores</h1>
+        <ul class='leader-list'>
+        </ul>
+      </div>
+    </div>
 
     <div class="footer">
       <span class="guns"></span>
@@ -52,7 +71,10 @@
         <a class="about link">About</a>
       </span>
       <span>
-        <a class="link" href="https://rhdoshi595.github.io/portfolio/">Portfolio</a>
+        <a class='leaderboard link'>Leaderboard</a>
+      </span>
+      <span>
+        <a class="link" href="http://rahuldoshi.co/">Portfolio</a>
       </span>
       <span>
         <a class="link" href="https://www.linkedin.com/in/rahul-doshi-2b1a53132">LinkedIn</a>
