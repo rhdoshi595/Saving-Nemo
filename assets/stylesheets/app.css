@@ -48,9 +48,9 @@ h1 {
   z-index: 1;
   color: red;
   position: absolute;
-  top: -400px;
+  top: -60px;
   right: 30px;
-  font-size: 12px;
+
 }
 
 .points {
@@ -59,14 +59,6 @@ h1 {
   position: absolute;
   top: -60px;
   left: 30px;
-}
-
-.highscore {
-  z-index: 1;
-  color: white;
-  position: absolute;
-  bottom: 25px;
-  right: 75px;
 }
 
 .timer{
