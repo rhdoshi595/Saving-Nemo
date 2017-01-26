@@ -9,16 +9,7 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
-    <script>
-      var config = {
-        apiKey: "AIzaSyBsI0koOMiV8944vb5XpRQxtS6FmUdgQ1E",
-        authDomain: "saving-nemo-d501a.firebaseapp.com",
-        databaseURL: "https://saving-nemo-d501a.firebaseio.com",
-        storageBucket: "saving-nemo-d501a.appspot.com",
-        messagingSenderId: "233715418539"
-      };
-      firebase.initializeApp(config);
-    </script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
     <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
@@ -58,7 +49,7 @@
     <div class='leader modal hidden'>
       <div class='leader-inner'>
         <a href="#close" title='Close' class='close'>X</a>
-        <h1 class='leader modal-header'>Highest 10 Scores</h1>
+        <h1 class='leader modal-header'>Top 10 All Time</h1>
         <ul class='leader-list'>
         </ul>
       </div>
@@ -69,7 +60,7 @@
         <h1>New High Score!</h1>
         <form class='l-form' autocomplete='off'>
           <input type='text' class='form' placeholder='name' name='name' value='' maxLength='8'>
-          <button type="submit" class='form-button button'>Submit</button>
+          <button type='submit' class='form-button button'>Submit</button>
         </form>
       </div>
     </div>
