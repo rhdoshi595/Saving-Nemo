@@ -1,5 +1,5 @@
 body {
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif ;
+  font-family: 'Gloria Hallelujah', cursive;
   background: black;
 }
 
@@ -29,7 +29,7 @@ h1 {
   margin: 15px auto;
   justify-content: space-between;
   border: 2px double lightgray;
-  padding: 10px 5px;
+  padding: 15px 5px;
 }
 
 .link{
@@ -74,4 +74,10 @@ h1 {
   top: 200px;
   width: 22%;
   z-index: 2;
+}
+
+@-webkit-keyframes wobble  {
+  0%  { -webkit-transform:  rotate(-10deg); }
+  50%  { -webkit-transform:  rotate(10deg); }
+  100%  { -webkit-transform:  rotate(-10deg); }
 }

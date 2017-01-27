@@ -63,6 +63,7 @@
 
 .button {
   color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 20px;
   padding: 5px 10px;
   background: blue;
@@ -100,7 +101,7 @@
 }
 
 .leader{
-  top: 100px;
+  top: -10px;
 }
 
 .leader-inner {
@@ -109,7 +110,7 @@
 }
 
 .leader-form{
-  top: 150px;
+  top: 80px;
 }
 
 .form{
@@ -118,7 +119,7 @@
   font-size: 16px;
   text-align: center;
   background: transparent;
-  font-family: serif;
+  font-family: 'Gloria Hallelujah', cursive;
   color: #fff;
   margin-bottom: 10px;
 }
