@@ -1,6 +1,6 @@
 ## Saving Nemo
 
-[Play Saving Nemo](https://rhdoshi595.github.io/Helicopter/)
+[Play Saving Nemo](http://rahuldoshi.co/Saving-Nemo/)
 
 ### Storyline
 
